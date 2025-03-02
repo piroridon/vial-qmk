@@ -1,8 +1,6 @@
-# editor50
+# Editor50
 
-![editor50](imgur.com image replace me!)
-
-*A short description of the keyboard/project*
+"Editor50" is 40% keyboard designed for text editing, equipped with a four-way stick switch, two rotary encoders, and three push switches.
 
 * Keyboard Maintainer: [piroridon](https://github.com/piroridon)
 * Hardware Supported: *The PCBs, controllers supported*
@@ -22,6 +20,6 @@ See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_to
 
 Enter the bootloader in 3 ways:
 
-* **Bootmagic reset**: Hold down the key at (0,0) in the matrix (usually the top left key or Escape) and plug in the keyboard
-* **Physical reset button**: Briefly press the button on the back of the PCB - some may have pads you must short instead
+* **Bootmagic reset**: Hold down the key at (3,3) in the matrix (stick switch push) and plug in the keyboard
+* **Physical reset button**: Remove the top contoller cover. Hold the BOOT button and press the RESET button on the micro contoller board.
 * **Keycode in layout**: Press the key mapped to `QK_BOOT` if it is available
